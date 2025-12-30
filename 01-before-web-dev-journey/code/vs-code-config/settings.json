@@ -1,0 +1,26 @@
+{
+    "editor.mouseWheelZoom": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "C_Cpp.default.compilerPath": "c:\\c programming cource\\.vscode",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "debug.terminal.clearBeforeReusing": true,
+    "output.smartScroll.enabled": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "livePreview.openPreviewTarget": "External Browser",
+    "workbench.editor.empty.hint": "hidden",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "makefile.configureOnOpen": true,
+    "workbench.colorTheme": "Dark Chai",
+    "editor.fontFamily": "Mono Lisa",
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "window.zoomLevel": 1,
+    "editor.wordWrap": "on",
+}
