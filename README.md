@@ -165,7 +165,7 @@ You can also check my pinned repositories for production‑level projects like f
 Most mini‑projects follow a similar pattern:
 
 clone the repo
-git clone https://github.com/YOUR_USERNAME/webdev-zero-to-fullstack.git
+git clone https://github.com/rishvmiyani/webdev-zero-to-fullstack.git
 cd webdev-zero-to-fullstack
 
 go into a project folder
