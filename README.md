@@ -203,7 +203,7 @@ You can:
 Basic contribution flow:
 
 after forking
-git clone https://github.com/YOUR_USERNAME/webdev-zero-to-fullstack.git
+git clone https://github.com/rishvmiyani/webdev-zero-to-fullstack.git
 git checkout -b feat/your-change
 
 make changes
