@@ -226,5 +226,3 @@ text
 
 If you find this repository helpful, consider giving it a ⭐ and sharing it with other learners.  
 Let’s grow from zero to full‑stack together. 🙌
-
-give me this as a copy paste ready format dor me github readme.md file 
