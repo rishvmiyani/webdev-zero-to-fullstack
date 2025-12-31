@@ -19,11 +19,11 @@ Module 1 Course introduction, essential tools, and VS Code setup – the foundat
 
 ## 📂 Quick navigation
 
-- [Course Introduction](.notes01-course-introduction.md)
-- [Tools Overview](.notes02-tools-overview.md) 
+- [Course Introduction]
+- [Tools Overview]
 - [VS Code Setup + Shortcuts]
-- [My VS Code Config](.codevs-code-config)
-- [Visual Guide (Screenshots)](.screenshots)
+- [My VS Code Config]
+- [Visual Guide (Screenshots)]
 
 ## 💡 Key takeaways
 
