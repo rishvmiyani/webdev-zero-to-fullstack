@@ -40,7 +40,7 @@ Each file focuses on a **specific HTML concept** for clarity and revision.
 
 Every HTML page starts with this structure:
 
-```html
+'''html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,7 +50,9 @@ Every HTML page starts with this structure:
 <body>
   Content goes here
 </body>
-</html>
+</html>'''
+
+---
 Key Tags Explained
 <!DOCTYPE html> → Tells browser HTML5 is used
 
