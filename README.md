@@ -198,7 +198,7 @@ You can:
 - 💡 Submit pull requests with:
   - Better explanations or diagrams in notes.
   - Additional exercises or alternative solutions.
-  - Small improvements to code quality and structure.
+  - Small improvements too code quality and structure.
 
 Basic contribution flow:
 
