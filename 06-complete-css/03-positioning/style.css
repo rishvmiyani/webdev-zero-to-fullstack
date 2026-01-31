@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background: #f8f9fa;
+    min-height: 200vh;
+    padding: 2rem;
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.positioning-demo {
+    height: 400px;
+    background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+.static {
+    position: static;
+    width: 120px;
+    height: 80px;
+    background: #4ecdc4;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    margin: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 120px;
+    height: 80px;
+    background: #45b7d1;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    margin: 20px;
+    border-radius: 8px;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 120px;
+    height: 80px;
+    background: #feca57;
+    color: #333;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 8px;
+    z-index: 3;
+    font-weight: bold;
+}
+
+.fixed {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 60px;
+    background: #ff9ff3;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 8px;
+    z-index: 1000;
+    font-size: 0.9rem;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.sticky {
+    position: sticky;
+    top: 20px;
+    width: 140px;
+    height: 90px;
+    background: #54a0ff;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+    margin: 20px;
+    border-radius: 8px;
+    z-index: 4;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.scroll-area {
+    text-align: center;
+    color: #666;
+    font-size: 1.1rem;
+}

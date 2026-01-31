@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Grid: Powerful Layouts</h1>
+        
+        <!-- Complete Page Layout -->
+        <div class="grid-demo">
+            <header class="grid-item header">Header</header>
+            <nav class="grid-item nav">Navigation</nav>
+            <main class="grid-item main">
+                <h2>Main Content</h2>
+                <p>Grid makes complex layouts easy!</p>
+            </main>
+            <aside class="grid-item sidebar">
+                <h3>Sidebar</h3>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </aside>
+            <footer class="grid-item footer">Footer</footer>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid">
+            <div class="gallery-item">1</div>
+            <div class="gallery-item">2</div>
+            <div class="gallery-item">3</div>
+            <div class="gallery-item span-2">4 (Spans 2 columns)</div>
+            <div class="gallery-item">5</div>
+            <div class="gallery-item">6</div>
+        </div>
+    </div>
+</body>
+</html>

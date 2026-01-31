@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    padding: 2rem;
+}
+
+.box-model-demo {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 2rem auto;
+    transition: all 0.3s ease;
+}
+
+.content {
+    width: 200px;
+    height: 100px;
+    background: rgba(255,255,255,0.9);
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid #333;
+    position: relative;
+    z-index: 4;
+}
+
+.padding::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    margin: 20px;
+    background: rgba(0,255,0,0.3);
+    z-index: 3;
+}
+
+.border::before {
+    content: '';
+    position: absolute;
+    top: 28px;
+    left: 0;
+    right: 0;
+    bottom: 28px;
+    margin: 22px;
+    background: rgba(255,255,0,0.4);
+    z-index: 2;
+}
+
+.margin::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,0,0,0.2);
+    z-index: 1;
+}
+
+.box-model-demo:hover {
+    transform: scale(1.05);
+}
