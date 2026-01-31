@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Landing - Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-inter bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 overflow-x-hidden">
+    
+    <!-- Navbar -->
+    <nav class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200/50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-8">
+                    <h2 class="text-2xl font-bold bg-gradient-to-r from-gray-900 to-slate-700 bg-clip-text text-transparent">Shopify</h2>
+                    <div class="hidden md:flex space-x-6">
+                        <a href="#" class="text-slate-600 hover:text-slate-900 font-medium transition-colors">Home</a>
+                        <a href="#" class="text-slate-600 hover:text-slate-900 font-medium transition-colors">Products</a>
+                        <a href="#" class="text-slate-600 hover:text-slate-900 font-medium transition-colors">Features</a>
+                        <a href="#" class="text-slate-600 hover:text-slate-900 font-medium transition-colors">Pricing</a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button class="px-6 py-2 text-slate-700 font-medium bg-white/50 hover:bg-white rounded-xl border border-slate-200/50 backdrop-blur-sm transition-all">Sign In</button>
+                    <button class="px-8 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-2xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-24 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="lg:pr-12">
+                    <div class="inline-flex items-center px-6 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium mb-8">
+                        🚀 Over 10,000+ businesses trust us
+                    </div>
+                    <h1 class="text-5xl lg:text-7xl font-bold text-gray-900 leading-tight mb-8">
+                        Build your <span class="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">e-commerce</span> 
+                        empire with zero hassle
+                    </h1>
+                    <p class="text-xl text-slate-600 mb-12 leading-relaxed max-w-2xl">
+                        Launch your online store in minutes. No coding, no complexity—just beautiful, fast, and scalable e-commerce.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="px-12 py-5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold text-lg rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-1 transition-all duration-300">Start Free Trial</button>
+                        <button class="px-12 py-5 border-2 border-slate-200 text-slate-900 font-semibold text-lg rounded-3xl hover:bg-slate-50 transition-all duration-300">Watch Demo</button>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-gradient-to-br from-white/70 to-slate-100/50 backdrop-blur-xl rounded-3xl p-12 shadow-2xl border border-white/50 max-w-md mx-auto lg:ml-auto">
+                        <div class="grid grid-cols-2 gap-6 mb-8">
+                            <div class="bg-gradient-to-br from-indigo-500/20 to-purple-500/20 p-6 rounded-2xl border-2 border-indigo-200/50">
+                                <div class="text-3xl mb-2">🛍️</div>
+                                <p class="text-slate-800 font-semibold">Products</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-emerald-500/20 to-teal-500/20 p-6 rounded-2xl border-2 border-emerald-200/50">
+                                <div class="text-3xl mb-2">💳</div>
+                                <p class="text-slate-800 font-semibold">Payments</p>
+                            </div>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="flex items-center space-x-3 p-4 bg-white/50 rounded-xl backdrop-blur-sm">
+                                <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                                <span class="text-sm font-medium text-slate-800">Order #1234 shipped</span>
+                            </div>
+                            <div class="flex items-center space-x-3 p-4 bg-white/50 rounded-xl backdrop-blur-sm">
+                                <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                                <span class="text-sm font-medium text-slate-800">New order received</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-24 bg-white/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-24">
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Everything you need to succeed</h2>
+                <p class="text-xl text-slate-600 max-w-3xl mx-auto">From product listings to payments, we've got you covered with the best tools in the industry.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="group">
+                    <div class="w-24 h-24 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-3xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300 shadow-xl">🚀</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Lightning Fast</h3>
+                    <p class="text-slate-600 text-center leading-relaxed">Blazing fast page loads and checkout flows that convert 3x better than competitors.</p>
+                </div>
+                <div class="group">
+                    <div class="w-24 h-24 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-3xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300 shadow-xl">🔒</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Secure Payments</h3>
+                    <p class="text-slate-600 text-center leading-relaxed">PCI-DSS compliant with fraud protection and 50+ payment gateways supported.</p>
+                </div>
+                <div class="group">
+                    <div class="w-24 h-24 bg-gradient-to-br from-amber-500 to-orange-600 rounded-3xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300 shadow-xl">📱</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Mobile Ready</h3>
+                    <p class="text-slate-600 text-center leading-relaxed">Perfect on every device with mobile-first design that drives 70% of sales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Footer -->
+    <section class="py-24 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Ready to start selling?</h2>
+            <p class="text-xl text-indigo-100 mb-12 max-w-2xl mx-auto">Join 10,000+ businesses growing 3x faster with our platform.</p>
+            <button class="px-12 py-6 bg-white text-indigo-600 font-bold text-xl rounded-3xl shadow-2xl hover:shadow-3xl hover:-translate-y-2 transition-all duration-500">Launch Your Store Free</button>
+        </div>
+    </section>
+</body>
+</html>

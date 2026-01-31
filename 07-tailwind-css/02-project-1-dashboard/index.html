@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-slate-800/30 to-blue-900/1 min-h-screen">
+    <div class="min-h-screen flex">
+        <!-- Sidebar -->
+        <div class="w-64 bg-slate-900/10 backdrop-blur-xl border-r border-white/20">
+            <div class="p-8">
+                <h2 class="text-2xl font-bold text-white mb-8">Dashboard</h2>
+                <nav class="space-y-2">
+                    <a href="#" class="flex items-center space-x-3 p-3 text-white/80 hover:bg-white/20 rounded-xl transition-all duration-300 group">
+                        <div class="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">📊</div>
+                        <span class="font-medium">Analytics</span>
+                    </a>
+                    <a href="#" class="flex items-center space-x-3 p-3 text-white/80 hover:bg-white/20 rounded-xl transition-all duration-300">
+                        <div class="w-10 h-10 bg-gradient-to-r from-green-500 to-blue-600 rounded-lg flex items-center justify-center">👥</div>
+                        <span class="font-medium">Users</span>
+                    </a>
+                    <a href="#" class="flex items-center space-x-3 p-3 text-white/80 hover:bg-white/20 rounded-xl transition-all duration-300">
+                        <div class="w-10 h-10 bg-gradient-to-r from-orange-500 to-red-600 rounded-lg flex items-center justify-center">💰</div>
+                        <span class="font-medium">Revenue</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 p-8">
+            <!-- Topbar -->
+            <div class="flex items-center justify-between mb-8">
+                <div>
+                    <h1 class="text-4xl font-bold text-yellow">Dashboard</h1>
+                    <p class="text-blue-400 mt-2">Welcome back! Here's what's happening with your data.</p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="relative">
+                        <input type="text" placeholder="Search..." class="w-80 pl-12 pr-6 py-3 bg-white/10 border border-white/20 rounded-2xl text-white placeholder-slate-400 backdrop-blur-lg focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all">
+                        <div class="absolute left-5 top-3.5 text-slate-400">🔍</div>
+                    </div>
+                    <button class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center hover:scale-110 transition-all shadow-xl">🔔</button>
+                </div>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 hover:bg-white/20 transition-all duration-300 group">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-slate-400 text-sm font-medium">Total Users</p>
+                            <p class="text-4xl font-bold text-white mt-2">12,345</p>
+                        </div>
+                        <div class="w-20 h-20 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center shadow-2xl group-hover:rotate-12 transition-all">👥</div>
+                    </div>
+                    <div class="w-full bg-slate-700 rounded-full h-2 mt-6">
+                        <div class="bg-gradient-to-r from-emerald-500 to-teal-600 h-2 rounded-full w-3/4"></div>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 hover:bg-white/20 transition-all duration-300">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-slate-400 text-sm font-medium">Revenue</p>
+                            <p class="text-4xl font-bold text-white mt-2">$56.8K</p>
+                        </div>
+                        <div class="w-20 h-20 bg-gradient-to-r from-yellow-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-2xl">💰</div>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 hover:bg-white/20 transition-all duration-300">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-slate-400 text-sm font-medium">Orders</p>
+                            <p class="text-4xl font-bold text-white mt-2">1,234</p>
+                        </div>
+                        <div class="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center shadow-2xl">📦</div>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 hover:bg-white/20 transition-all duration-300">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-slate-400 text-sm font-medium">Conversion</p>
+                            <p class="text-4xl font-bold text-white mt-2">3.2%</p>
+                        </div>
+                        <div class="w-20 h-20 bg-gradient-to-r from-indigo-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-2xl">📈</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Row -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8">
+                    <h3 class="text-xl font-bold text-white mb-6">Sales Overview</h3>
+                    <div class="h-80 bg-gradient-to-br from-slate-800/50 to-transparent rounded-2xl flex items-center justify-center">
+                        <p class="text-slate-500 text-lg">📊 Chart Area (Production ready)</p>
+                    </div>
+                </div>
+                <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8">
+                    <h3 class="text-xl font-bold text-white mb-6">Recent Activity</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-4 p-4 bg-white/5 rounded-xl hover:bg-white/10 transition-all">
+                            <div class="w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center">✅</div>
+                            <div>
+                                <p class="font-medium text-white">Order #1234 completed</p>
+                                <p class="text-sm text-slate-400">2 minutes ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
