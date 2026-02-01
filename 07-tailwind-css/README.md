@@ -2,6 +2,10 @@
 
 Production-ready Tailwind CSS projects using **HTML + Tailwind CDN only**.
 
+# Tailwind CSS
+Utility-first CSS framework fundamentals and projects
+
+
 ## 🚀 Projects Included
 
 ### 01. Tailwind Setup Demo
