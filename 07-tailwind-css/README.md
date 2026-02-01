@@ -9,6 +9,10 @@ Utility-first CSS framework fundamentals and projects
 - CDN setup
 - Local build setup
 
+## Projects
+- Dashboard UI
+- Ecommerce UI
+
 
 ## 🚀 Projects Included
 
