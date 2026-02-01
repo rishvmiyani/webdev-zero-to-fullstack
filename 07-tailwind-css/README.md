@@ -13,6 +13,10 @@ Utility-first CSS framework fundamentals and projects
 - Dashboard UI
 - Ecommerce UI
 
+## Learning Outcomes
+- Utility-first workflow
+- Responsive design
+
 
 ## 🚀 Projects Included
 
